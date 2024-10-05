@@ -4,6 +4,6 @@
 .center{
     @apply flex justify-center items-center;
 }
-img{
+img,svg{
     @apply max-w-full
 }
