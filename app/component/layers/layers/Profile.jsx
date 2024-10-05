@@ -15,8 +15,8 @@ const Profile = () => {
     return (
         <div className={`${dark ? "dark" : null}`}>
             <div className="dark:bg-[#0c0c0c] bg-[#fff] rounded-b-3xl rounded-tl-3xl text-[#0c0c0c] dark:text-[#fff]">
-                <div className='p-10'>
-                    <div className="rounded-b-3xl rounded-tl-3xl w-72 h-72 bg-stone-200 overflow-hidden">
+                <div className='p-5 md:p-10'>
+                    <div className="rounded-b-3xl rounded-tl-3xl lg:w-72 lg:h-72 bg-stone-200 overflow-hidden">
                         <Image className='h-full w-full object-cover' src={Akash} alt='a' />
                     </div>
                     <div className="mt-[49px] mb-0">

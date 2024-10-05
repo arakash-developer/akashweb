@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <div className="w-[100vw] h-[100vh] bg-[url('../public/bg.png')] bg-cover bg-center overflow-hidden">
-        <Container className='pt-[70px]'>
+        <Container className='pt-5 lg:pt-[70px]'>
           <div className="flex gap-3 items-start">
             <Navbar />
-          <div className="flex flex-col lg:flex-row gap-3 h-[100vh] overflow-scroll">
+          <div className="flex flex-col lg:flex-row gap-3 h-[100vh] overflow-scroll no-scrollbar">
             <Profile />
             <Bannar />
           </div>
