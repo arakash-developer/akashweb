@@ -21,7 +21,7 @@ const Navbar = () => {
         setDark(!dark)
     }
     return (
-        <div className={`w-[66px] flex flex-col gap-2 ${dark ? "dark" : null}`}>
+        <div className={`w-[95px] flex flex-col gap-2 ${dark ? "dark" : null}`}>
             <div className="bg-[#fff] dark:bg-[#0C0C0C] dark:text-[#fff] center rounded-3xl w-full h-16 cursor-pointer group">
                 <FontAwesomeIcon className='h-[26px] w-[26px] dark:text-[#fff] text-[#0c0c0c] group-hover:text-[#78cc6d]' icon={faBarsStaggered} />
             </div>

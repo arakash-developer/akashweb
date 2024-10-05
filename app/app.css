@@ -1,6 +1,6 @@
+*{
+    @apply font-poppins transition-colors duration-200
+}
 .center{
     @apply flex justify-center items-center;
-}
-*{
-    @apply font-poppins
 }

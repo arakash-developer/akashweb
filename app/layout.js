@@ -1,6 +1,6 @@
-import "./app.css";
 import DarkContext from "./contex/DarkContext";
 import "./globals.css";
+import "./app.css";
 
 export const metadata = {
   title: "Create Next App",
